@@ -17,8 +17,7 @@ limits:
   max_aliasis: 3
 
 cors:
-  origins:
-    - https://studio.apollographql.com
+  allow_any_origin: true
   allow_credentials: true
 
 # This would make debugging easier, but should be a per subgraph basis for production
